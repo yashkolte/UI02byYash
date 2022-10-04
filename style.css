@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 300;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background: rgb(42,42,42);
+  background: linear-gradient(158deg, rgba(42,42,42,1) 0%, rgba(0,0,0,1) 55%, rgba(0,0,0,1) 100%);
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+#nav {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left-nav,
+.right-nav {
+    color: rgba(255, 255, 255, 0.479);
+  width: 15vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hero-main {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+}
+
+.hero-left img {
+  height: 10vh;
+  width: 4vw;
+}
+
+.hero-left h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.hero-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  width: 30%;
+  height: 100%;
+}
+
+.hero-img img {
+    height: 70vh;
+    width: 30vw;
+}
+
+.hero-img img:nth-child(2) {
+  height: 100px;
+  width: 100px;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  height: 70%;
+  margin-bottom: 50px;
+}
+
+.hero-right-subtext {
+  height: 20vh;
+  width: 15vw;
+  text-align: center;
+  /* font-weight: lighter; */
+}
+
+.hero-right-subtext h2 {
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 100;
+  margin: 1rem 0;
+}
+
+.hero-right-img img {
+  height: 28vh;
+  width: 12vw;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20vw;
+  height: 10vh;
+}
+
+.tag {
+    border: 1px solid white;
+    border-radius: 30px;
+    margin: 0.2rem;
+    padding: 0.25rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tag img{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.tag h2 {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.large-text {
+    font-size: 2rem;
+    text-align: right;
+}
+
+.large-text h1{
+    font-weight: lighter;
+    
+}
