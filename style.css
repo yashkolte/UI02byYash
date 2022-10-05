@@ -163,3 +163,88 @@
     font-weight: lighter;
     
 }
+
+@media screen and (max-width: 360px) {
+
+  body {
+    background-color: black;
+  }
+    #main #nav {
+        flex-direction: column;
+        height: 20vh;
+    }
+
+    .left-nav , .right-nav{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    .hero-main {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    .hero-left {
+        width: 80%;
+        height: 20vh;
+        margin-top: 20vh;
+    }
+
+
+
+    .hero-left h1 {
+        font-size: 2rem;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 40vh;
+        align-items: center;
+    }
+
+    .hero-img img {
+        height: 40vh;
+        width: 70vw;
+    }
+
+    .hero-img img:last-child {
+        height: 15vh;
+        width: 15vw;
+    }
+
+    .hero-right {
+        width: 100%;
+        height: 20vh;
+        margin-top: 15vh;
+    }
+
+    .hero-right-subtext {
+        width: 90%;
+        height: 10vh;
+    }
+
+    .hero-right-img img{
+      margin-top: 10vh;
+        height: 15vh;
+        width: 30vw;
+    }
+
+    .bottom {
+      margin-top: 40vh;
+      /* display: none; */
+      position: relative;
+    }
+
+    .bottom-items {
+      /* align-items: center; */
+      position: relative;
+        flex-direction: column-reverse;
+        height: 50vh;
+        justify-content: space-around;
+    }
+
+    .tags {
+      width: 100%;
+      align-items: center;
+    }
+}
