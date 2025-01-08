@@ -1,4 +1,4 @@
-# UI Design 
+# Save Ukraine UI Design 
 
 This design is created for showing support and contribution for Ukraine
 
